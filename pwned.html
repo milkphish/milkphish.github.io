@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+    <style>
+        @keyframes flash {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f2f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .congrats-banner {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            animation: flash 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="congrats-banner">
+        CONGRATULATIONS, YOU HAVE BEEN PWNED BY GROUP 9: CLARENCE VALELO, AMR ELADAWY, KEVIN GONZALEZ, & LIN HAN.
+    </div>
+</body>
+</html>
