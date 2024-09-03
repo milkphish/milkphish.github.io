@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Georgia Tech :: Account Management :: Passport</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Additional stylesheets -->
+    <!--[if gte IE 9]><!-->
+    <link rel="stylesheet" type="text/css" href="/styles/responsive.css?1722394732">
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/scripts/html5shiv.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/legacy.css?1722394732">
+    <![endif]-->
+    
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="/scripts/modernizr.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <!-- Your existing HTML content -->
+
+    <div id="prefooter">
+        <header>
+            <div id="identity">
+                <h1 id="gt-logo" class="">
+                    <img src="/images/logo.svg" width="244px" height="42px" alt="Georgia Tech">
+                </h1>
+                <h2 id="site-title">Passport</h2>
+            </div>
+            <div id="mobile-menu"></div>
+        </header>
+
+        <section id="main" class="fluid no_grid">
+            <div id="content" class="content">
+                <noscript>
+                    <p class="warning"><strong>Your browser does not have JavaScript enabled.</strong> This site requires JavaScript to function correctly.</p>
+                </noscript>
+
+                <section id="flash_container">
+                    <div class="flash">Please login to access the page that you requested.</div>
+                </section>
+
+                <div>
+                    <div id="login">
+                        <div id="login_box" class="focus_input">
+                            <h2>Enter your GT Account and Password</h2>
+                            <div class="gt_form">
+                                <form enctype="application/x-www-form-urlencoded" method="post">
+                                    <ul class="fields">
+                                        <li class="field">
+                                            <label for="username" class="optional">GT Account</label>
+                                            <input type="text" name="username" id="username" value="" autocorrect="off" autocapitalize="off">
+                                        </li>
+                                        <li class="field">
+                                            <label for="password" class="optional">Password</label>
+                                            <input type="password" name="password" id="password" value="">
+                                        </li>
+                                    </ul>
+                                    <div class="buttons">
+                                        <input type="submit" name="login" id="login" value="Login">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="sidebar">
+                            <div id="help">
+                                <p>Passport offers tools for GT Account password changes, email aliasing and GT Directory options.</p>
+                                <div id="dont_know">
+                                    <p><a href="/activation/select-affiliation" class="nowrap">I need to activate my GT Account</a></p>
+                                    <p><a href="/activation/forgot-username" class="nowrap">I don't know my GT Account username</a></p>
+                                    <p><a href="/activation/forgot-password" class="nowrap">I have forgotten my GT Account password</a></p>
+                                    <p><a href="/two-factor/help" class="nowrap">I can't log in because I don't have my phone or token</a></p>
+                                    <p><a href="/two-factor/remove" class="nowrap">I need to report my Duo phone/token missing</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="superfooter">
+        <div id="superfooter-content">
+            <div class="support_notice">
+                For assistance, please contact the <span class="nowrap"><a href="https://asc.gatech.edu" target="_blank">Administrative Services Center</a> at <span class="nowrap">(404) 385-1111.</span></span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer-content">
+            <ul>
+                <li><a href="https://www.gatech.edu/emergency/">Emergency Information</a></li>
+                <li><a href="https://www.gatech.edu/legal/">Legal &amp; Privacy Information</a></li>
+                <li><a href="https://www.gatech.edu/accessibility">Accessibility</a></li>
+                <li><a href="https://www.gatech.edu/accountability/">Accountability</a></li>
+                <li><a href="https://www.gatech.edu/accreditation/">Accreditation</a></li>
+                <li><a href="https://www.careers.gatech.edu/">Employment</a></li>
+            </ul>
+            <p>© 2024 Georgia Institute of Technology</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="/scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/common/ajax_redirect.js"></script>
+    <script type="text/javascript" src="/scripts/common/menu_mobile.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/ZeroClipboard.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/activation_lookup.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/activation_stats.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/buzzcard-kiosk.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/directory_photo.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/dynamic_validation.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/email_preferences.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/focus_first_input.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guest_group_form.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guest_listing.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guest_services_form.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guest_tabs.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guests_email_fields.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/guests_password_fields.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/hide_requirements.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/hint_form.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/international_phone.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/jquery.Jcrop.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/link_button.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/loading_account.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/locked.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/log_listing.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/moment.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/nickname_form.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/official_email_picker.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/onboarding.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/password_change.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/picker0.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/picker1.date.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/pulldown_menu.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/scroll.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/set_alias.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/submit_disabled_button.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/submitted_ids.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/supersleight.plugin.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/two_factor.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_admin.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_buzzcard.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_complete.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_process.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_buzzcard.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/vetting_process.js"></script>
+
+    <!-- Foundation Scripts -->
+    <script type="text/javascript" src="/scripts/foundation/foundation.js"></script>
+    <script type="text/javascript" src="/scripts/foundation/foundation.reveal.js"></script>
+    <script type="text/javascript" src="/scripts/foundation/help_popup.js"></script>
+
+    <!-- Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-12654089-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-12654089-3');
+    </script>
+</body>
+</html>
