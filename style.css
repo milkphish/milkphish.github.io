@@ -16778,8 +16778,21 @@ p.note {
 }
 
 #two_factor_status.red i.status {
-    color: #c0392b
-}
+        width: 50px; /* Adjust size as needed */
+        height: 50px; /* Adjust size as needed */
+        background-color: red; /* Red background */
+        border-radius: 50%; /* Makes the div a circle */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; /* Color for the exclamation point */
+        font-size: 20px; /* Adjust size as needed */
+        font-weight: bold;
+      }
+
+      #two_factor_status.red::before {
+        content: "!";
+      }
 
 #two_factor_status i.status {
     position: absolute;
